@@ -1,7 +1,7 @@
 from twilio.rest import Client
 
 
-client =  Client('ACfe480167baf6aa51381909275157487e','0683849d3139b6c6c18d323577cae631')
+client =  Client('','')
 
 def send_message(number):
     # msg = f"Have you heard of TEMPX? It’s been a game-changer for Candidates
