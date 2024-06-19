@@ -1,11 +1,10 @@
 import pandas as pd
 import time
-# https://docs.google.com/spreadsheets/d/1angTmN5g7vsu317GEHvibdupvozAETotACKrJvWkxno/edit?usp=sharing
 from raw_sql import get_rows, insert_rows
 from message import send_message
 
 def check_forms():
-    sheet_id = "1angTmN5g7vsu317GEHvibdupvozAETotACKrJvWkxno"
+    sheet_id = ""
     df = pd.read_csv(f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv")
     print("#"*20)
     print('dataframe', df)
