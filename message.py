@@ -19,11 +19,10 @@ def send_message(number):
     """
     message = client.messages.create(
         body = msg,
-        from_='+14455450878',
+        from_='+',
         to=f'+1{number}'
     )
 
     print(message.body)
 
-if __name__=='__main__':
-    send_message(2269618935)
+
